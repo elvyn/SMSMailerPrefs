@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SMSMailerPrefs">
+    <item
+        android:id="@+id/update_sender"
+        android:orderInCategory="100"
+        android:title="@string/update_sender"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_receiver"
+        android:orderInCategory="100"
+        android:title="@string/add_receiver"
+        app:showAsAction="never" />
+</menu>

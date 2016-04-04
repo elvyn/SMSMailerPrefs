@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SMSMailer Preferences</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Please enter message</string>
+    <string name="button_send">Send message</string>
+    <string name="update_sender">Update email</string>
+    <string name="add_receiver">Add receiver</string>
+    <string name="remove_receiver">Remove receiver</string>
+    <string name="sender_email_hint">Sender email address</string>
+    <string name="receiver_email_hint">add@receiver.address</string>
+    <string name="sender_passwd_hint">Password</string>
+    <string name="sender_email_update">Save details</string>
+    <string name="sender_email_text">Sender email address:</string>
+    <string name="receiver_email_text">Receivers list:</string>
+    <string name="add_receiver_button">Save</string>
+    <string name="title_activity_display_message">My Activity</string>
+    <string name="title_activity_update_sender">Update sender details</string>
+    <string name="title_activity_add_receiver">Add receiver email</string>
+</resources>
