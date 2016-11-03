@@ -3,6 +3,7 @@ package com.example.ankit.SMSMailerPrefs;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.EditText;
 
 
@@ -29,6 +30,10 @@ public class AddReceiverActivity extends AppCompatActivity {
         /* Reset the text value to default address */
         text.setText("");
         text.setHint(DISPLAY_RECEIVER_ADDRESS);
+    }
+
+    public void saveDetails(View a) {
+        saveDetails();
     }
 
 }

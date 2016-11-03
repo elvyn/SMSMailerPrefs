@@ -31,6 +31,7 @@ public class SettingsStorage {
         editor.putString(SETTINGS_SENDER_EMAIL, senderEmail);
         editor.putString(SETTINGS_SENDER_PASSWD, senderPasswd);
         editor.commit();
+        System.gc();
     }
 
     public void addReceivers(String receiverEmail) {
@@ -62,11 +63,16 @@ public class SettingsStorage {
         email_passwd = this.getSenderPasswd();
     }
 
-    private String getSenderPasswd() {
+    public String getSenderPasswd() {
         return mAppPrefs.getString(SETTINGS_SENDER_PASSWD, DISPLAY_SENDER_PASSWD);
     }
 
     public HashSet<String> getReceiversList() {
         return new HashSet<String>(mAppPrefs.getStringSet(SETTINGS_RECEIVERS_LIST, new HashSet<String>()));
+    }
+
+    public String[] getReceiversStringList() {
+        HashSet<String>  tmp_hashset = new HashSet<String>(mAppPrefs.getStringSet(SETTINGS_RECEIVERS_LIST, new HashSet<String>()));
+        return tmp_hashset.toArray(new String[tmp_hashset.size()]);
     }
 }

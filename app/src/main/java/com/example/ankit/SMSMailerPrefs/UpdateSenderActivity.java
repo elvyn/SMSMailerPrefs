@@ -3,6 +3,7 @@ package com.example.ankit.SMSMailerPrefs;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.EditText;
 
 public class UpdateSenderActivity extends AppCompatActivity {
@@ -42,6 +43,10 @@ public class UpdateSenderActivity extends AppCompatActivity {
 
         /* Save details to storage. */
         new SettingsStorage(getApplicationContext()).updateSender(email_address, email_passwd);
+    }
+
+    public void saveDetails(View a) {
+        saveDetails();
     }
 
 }

@@ -26,6 +26,6 @@
         android:id="@+id/add_receiver_btn"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:onClick="saveDetails"/>
+        android:onClick="saveDetails" />
 
 </RelativeLayout>

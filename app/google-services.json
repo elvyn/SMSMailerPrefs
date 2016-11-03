@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617348610598",
+    "project_id": "firebase-smsmailer"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617348610598:android:5a3af01063827c75",
+        "android_client_info": {
+          "package_name": "com.example.ankit.SMSMailerPrefs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617348610598-7d5up8efmpeik270qkc8s31t421v71a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankit.SMSMailerPrefs",
+            "certificate_hash": "7244ABEA1831B9D5306B213968B80FCEE28C5F5B"
+          }
+        },
+        {
+          "client_id": "617348610598-dtfonfsqdr8knjg6enmmscbp4pqo00vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxA1meDtN8dQ8CcUtzsQlwAmLRNPycwyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -68,6 +68,8 @@ public class SMSMailerPrefs extends AppCompatActivity {
                     }
                 }
             );
+            Intent intent_service = new Intent(this, SMSMailerService.class);
+            stopService(intent_service);
         }
     }
 
@@ -84,14 +86,18 @@ public class SMSMailerPrefs extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        Intent intent_service = new Intent(this, SMSMailerService.class);
+        stopService(intent_service);
 
         switch (id) {
             case R.id.update_sender:
                 Intent intent = new Intent(this, UpdateSenderActivity.class);
                 startActivity(intent);
+                startService(intent_service);
                 return true;
             case R.id.add_receiver:
                 Intent addintent = new Intent(this, AddReceiverActivity.class);
+                startService(intent_service);
                 startActivity(addintent);
                 return true;
             default:

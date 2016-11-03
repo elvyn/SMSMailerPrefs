@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SMSMailer Preferences</string>
+    <string name="app_name">SMSMailer</string>
     <string name="action_settings">Settings</string>
     <string name="edit_message">Please enter message</string>
     <string name="button_send">Send message</string>
